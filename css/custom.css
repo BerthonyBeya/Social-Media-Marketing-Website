@@ -51,7 +51,7 @@
   --primary-color: #ffffff;
   --secondary-color: #1b1b1b;
   --text-color: #f5f5f4;
-  --accent-color: #bff747;
+  --accent-color: dodgerblue; /* #bff747 */
   --dark-color: #000000;
   --divider-color: #ffffff1a;
   --dark-divider-color: #f7fbfa1a;
@@ -241,7 +241,7 @@ body {
   height: 50px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  background-image: url("../images/arrow-dark.svg");
+  background-image: url("../images/icons8-arrow-30.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 24px auto;
@@ -1158,8 +1158,8 @@ body:has(.offcanvas) {
   transform: scale(1);
 }
 
-.icon-hero-img-2 figure img,
-.icon-hero-img-1 figure img {
+.icon-hero-img-2 figure svg,
+.icon-hero-img-1 figure svg {
   position: relative;
   max-width: 41px;
   aspect-ratio: auto;
